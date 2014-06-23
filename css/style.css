@@ -4,7 +4,8 @@
 	color: #f8f8f8;
 	/*background: url(http://www.gettyimages.com/gi-resources/images/June/clint.jpg) no-repeat center center;*/
 	/*background: url(https://www.dropbox.com/s/72r5ga66pn7sf52/20140524_171940_971.jpg?dl=1) no-repeat center center;*/
-	background: url(https://www.dropbox.com/s/03na7v9hbqx0er9/IMG_0018_2.jpg?dl=1) no-repeat center center;
+	/*background: url(https://www.dropbox.com/s/03na7v9hbqx0er9/IMG_0018_2.jpg?dl=1) no-repeat center center;*/
+	background: url(../images/cover.JPG) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -14,8 +15,8 @@ body, html {
 	font-family: 'viroregular' , Verdana, Tahoma;
 }
 .container{
-    padding-top: 10%;
-    padding-bottom: 20%;
+    /*padding-top: 10%;*/
+    padding-bottom: 30%;
 }
 
 .navbar-brand{
