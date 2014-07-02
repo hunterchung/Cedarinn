@@ -1,13 +1,9 @@
 #home {
-	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	/*background: url(http://www.gettyimages.com/gi-resources/images/June/clint.jpg) no-repeat center center;*/
-	/*background: url(https://www.dropbox.com/s/72r5ga66pn7sf52/20140524_171940_971.jpg?dl=1) no-repeat center center;*/
-	/*background: url(https://www.dropbox.com/s/03na7v9hbqx0er9/IMG_0018_2.jpg?dl=1) no-repeat center center;*/
 	background: url(../images/cover.JPG) no-repeat center center;
 	background-size: cover;
-	/*text-align: center;*/
 }
 body, html {
 	height: 100%;
@@ -114,6 +110,20 @@ footer.footer{
 	padding-left: 5px;
 }
 
-hr{
-	/*width: 80%;*/
+#contact td{
+	padding-left: 50px;
+}
+.profile-pic{
+	background: url(../images/profile_pic.JPG);
+	border-radius: 150px;
+	width: 300px;
+	height: 300px;
+}
+
+#end {
+	padding-top: 500px;
+	padding-bottom: 100px;
+	color: #f8f8f8;
+	background: url(../images/cedarinn_snowing.JPG) no-repeat center center;
+	background-size: cover;
 }
