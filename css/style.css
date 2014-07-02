@@ -22,7 +22,7 @@ body, html {
 }
 
 h2.brand{
-	opacity: 0.8;
+	opacity: 0.5;
 }
 h1.head{
 	text-align: center;
@@ -30,14 +30,14 @@ h1.head{
 }
 #book-btn{
 	font-size: 28px;
-	border: solid rgba(255,255,255,0.8);
+	border: solid rgba(255,255,255,0.5);
 	border-radius: 10px;
 	width: 220px;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 }
 #book-a{
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.5);
 	text-decoration: none;
 }
 #book-a div{
