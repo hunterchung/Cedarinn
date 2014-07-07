@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" /> -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -26,17 +25,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#rooms">Rooms</a></li>
-                    <li><a href="#amenities">Amenities</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#contact">Reservation</a></li>
+                    <li><a href="#rooms" data-ajax="false">Rooms</a></li>
+                    <li><a href="#amenities" data-ajax="false">Amenities</a></li>
+                    <li><a href="#contact" data-ajax="false">Contact</a></li>
+                    <li><a href="#contact" data-ajax="false">Reservation</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
     <div id="main" data-spy="scroll" data-target="navbar">
-        <div id="home">
+        <div id="home" class="part">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 box jumbotron">
@@ -48,9 +47,9 @@
         </div>
 
         <!-- Rooms -->
-        <hr>
+        <!-- <hr> -->
         <h1 id="rooms-part" class="head">Rooms</h1>
-        <div id="rooms" class="items container">
+        <div id="rooms" class="items container part">
             <div class="row">
                 <div class="item col-xs-12 col-sm-6 col-lg-4">
                     <div class="photo"><img src="http://cedarinntahoe.com/images/queen_1_std.jpg"></div>
@@ -69,7 +68,7 @@
                     </div>
                 </div>
                 <div class="item col-xs-12 col-sm-6 col-lg-4">
-                    <div class="photo"><img src="images/mini_suite.jpg"></div>
+                    <div class="photo"><img src="images/mini_suite.JPG"></div>
                     <div class="info">
                         <div class="name">Mini Suites</div>
                         <span>Enjoy your family trip with a kitchenette in room. Rooms with connecting door are available.
@@ -94,7 +93,7 @@
                     </div>
                 </div>
                 <div class="item col-xs-12 col-sm-6 col-lg-4">
-                    <div class="photo"><img src="images/three_bed.jpg"></div>
+                    <div class="photo"><img src="images/three_bed.JPG"></div>
                     <div class="info">
                         <div class="name">Two doubles & one twin</div>
                         <span>Traveling with young adult? <br>
@@ -106,9 +105,9 @@
         </div>
 
         <!--AMENITIES -->
-        <hr>
+        <!-- <hr> -->
         <h1 class="head" id="amenities-part">Amenities</h1>
-        <div class="container">
+        <div class="container part">
             <div class="row">
                 <div class="col-md-12">
                     <div id="amenities" class="carousel slide" data-ride="carousel">
@@ -182,9 +181,9 @@
         </div>
 
         <!-- Contact -->
-        <hr>
+        <!-- <hr> -->
         <h1 class="head" id="contact-part">Contact</h1>
-        <div class="container">
+        <div class="container part">
             <div id="contact" class="row">
                 <div class="col-sm-10">
                     <table><tr>

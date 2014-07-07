@@ -5,6 +5,11 @@
 	background: url(../images/cover.JPG) no-repeat center center;
 	background-size: cover;
 }
+
+.part{
+	margin-bottom: 100px;
+}
+
 body, html {
 	height: 100%;
 	width: 100%;
