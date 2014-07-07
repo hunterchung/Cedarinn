@@ -6,7 +6,10 @@ $(document).ready(function() {
       $(".carousel").carousel('prev');
     });
    $(".carousel").swipeleft(function() {
-      $(".carousel").carousel('next');  
+      $(".carousel").carousel('next');
    });
+
+   //Remove jquery ui.
+   $("div.ui-loader").remove();
     // $("#room-tab").tab();
 });
